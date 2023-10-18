@@ -15,20 +15,6 @@ e) The time complexity of this code for finding the maximum subarray sum is O(n)
 
 
 
-or 
-a) The code is using a list data structure to store the numbers. A list is a suitable data structure for this task because it allows for efficient access and modification of its elements. Lists are ordered sequences of elements, and each element can be accessed using its index. This makes it easy to iterate through the list and perform operations on each element. Additionally, lists can be easily extended or shortened, making them suitable for storing dynamic data sets.
-
-b) Initializing maxSum with the first element of the list is important because it ensures that the algorithm will always find a maximum subarray sum, even if all the elements in the list are negative. If maxSum were initialized to a value less than the first element, the algorithm might not find the correct maximum subarray sum.
-
-c) The for loop iterates through the list from the first element to the last element. The purpose of the sumz variable is to store the sum of the subarray that is currently being considered. The sumz variable is updated within the loop by adding the current element of the list to the previous sum.
-
-d) The code identifies the maximum subarray sum by comparing the current sumz to the maxSum variable. If the current sumz is greater than maxSum, then the maxSum variable is updated to the current sumz. This ensures that the maxSum variable always stores the maximum subarray sum that has been found so far.
-
-e) The time complexity of this code for finding the maximum subarray sum is O(n), where n is the number of elements in the list. This is because the algorithm iterates through the list once, and each iteration takes constant time. The choice of a list data structure and the use of a simple for loop contribute to the efficiency and performance of the algorithm.
-
-
-
-
 ```markdown
 # Uganda Martyrs Python Script
 
